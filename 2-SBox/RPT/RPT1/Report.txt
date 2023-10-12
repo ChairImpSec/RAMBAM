@@ -1,0 +1,193 @@
+Start Hardware Leakage Evaluation
+
+Library file:   library.lib
+Library name:   NANG45
+Design file:    design.v
+Module name:    circuit
+Linker file:    linker.ld
+Settings file:  config.set
+Result folder:  .
+
+Read library file...done!
+Read design file..."circuit"...done!
+Make circuit depth...done!
+Read settings file...done with 5 warnings!
+    Warning "remove_full_probing_sets" is not specified. Default "remove_full_probing_sets" = no is taken!
+    Warning "max_distance_multivariate" is not specified. Default "max_distance_multivariate" = 10 is taken!
+    Warning "no_of_probing_sets_per_step" is not specified. Default "no_of_probing_sets_per_step" = all is taken!
+    Warning "no_of_outputs" is not specified. Default "no_of_outputs" = 0 is taken!
+    Warning "waveform_simulation" is not specified. Default "waveform_simulation" = false is taken!
+Construct probes...done!
+Prepare simulation memory...done!
+Prepare shared data for 48 threads ...done!
+
+Generate list of standard probes from 175 standard probe locations...700 standard probes found...done!
+Generate list of extended probes from 108 extended probe locations...4000 extended probes found...done!
+Generate univariate probing sets...done (last step)! 700 probing sets generated!
+Extend all probing sets...done!
+Remove duplicated probes in the sets...done!
+Remove duplicated probing sets...done! 376 probing sets remain!
+Remove subsets of probing sets...Setting univariate case...done! 356 probing sets remain!
+----------------------------------------------------------------------------------------------------------------------------------
+| #Standard Probes | #Extended Probes | Security Order | Distance | #Entries in Report | #Probing Sets | Maximum #Probes per Set |
+----------------------------------------------------------------------------------------------------------------------------------
+|              700 |              432 |              1 |       10 |                236 |           356 |                      32 |
+----------------------------------------------------------------------------------------------------------------------------------
+
+Evaluate security under the robust probing model!
+----------------------------------------------------------------------------------------------------------------------------------------
+|      Elapsed Time |      Required Ram |  Processed Simulations | Probing Set with highest Information Leakage |  -log10(p) |  Status |
+----------------------------------------------------------------------------------------------------------------------------------------
+|         0.123301s |        3.724644GB |         10240 / 129211 |                          RegIn_inst6_n62 (7) |   2.399149 |    OKAY |
+|         0.301796s |        3.725304GB |         20480 / 179759 |                                    z1[5] (7) |   2.435532 |    OKAY |
+|         0.398476s |        3.725304GB |         30720 / 218531 |                          RegIn_inst6_n54 (7) |   1.748478 |    OKAY |
+|         0.520790s |        3.725304GB |         40960 / 251197 |                          RegIn_inst6_n57 (4) |   1.489692 |    OKAY |
+|         0.635515s |        3.725304GB |         51200 / 279955 |                          RegIn_inst6_n51 (7) |   1.442213 |    OKAY |
+|         0.761373s |        3.725700GB |         61440 / 305933 |                          RegIn_inst6_n57 (5) |   1.563100 |    OKAY |
+|         0.969438s |        3.730332GB |         71680 / 329803 |                          RegIn_inst6_n57 (5) |   1.545039 |    OKAY |
+|         1.129244s |        3.740124GB |         81920 / 352055 |                          RegIn_inst6_n57 (5) |   1.723728 |    OKAY |
+|         1.291611s |        3.740124GB |         92160 / 372935 |                          RegIn_inst6_n57 (5) |   1.962386 |    OKAY |
+|         1.442242s |        3.740124GB |        102400 / 392643 |                          RegIn_inst6_n51 (7) |   1.788074 |    OKAY |
+|         1.635488s |        3.744732GB |        112640 / 411405 |                          RegIn_inst0_n53 (5) |   1.920792 |    OKAY |
+|         1.814197s |        3.745280GB |        122880 / 429323 |                          RegIn_inst6_n60 (7) |   1.608042 |    OKAY |
+|         1.995388s |        3.755680GB |        133120 / 446499 |                          RegIn_inst0_n62 (5) |   2.010116 |    OKAY |
+|         2.199742s |        3.755680GB |        143360 / 462989 |                          RegIn_inst0_n53 (5) |   1.578903 |    OKAY |
+|         2.380553s |        3.756236GB |        153600 / 478897 |                          RegIn_inst6_n60 (4) |   1.438291 |    OKAY |
+|         2.576483s |        3.769972GB |        163840 / 494305 |                          RegIn_inst6_n59 (6) |   1.540029 |    OKAY |
+|         2.787728s |        3.769972GB |        174080 / 509203 |                          RegIn_instX_n41 (4) |   1.533271 |    OKAY |
+|         2.993370s |        3.770104GB |        184320 / 523703 |                          RegIn_instX_n41 (4) |   1.836278 |    OKAY |
+|         3.204789s |        3.770104GB |        194560 / 537783 |                          RegIn_inst6_n54 (7) |   1.839575 |    OKAY |
+|         3.410898s |        3.770104GB |        204800 / 551499 |                          RegIn_inst6_n54 (7) |   2.426403 |    OKAY |
+|         3.731728s |        3.777804GB |        215040 / 564871 |                          RegIn_inst6_n54 (7) |   2.661200 |    OKAY |
+|         3.976702s |        3.794700GB |        225280 / 577897 |                          RegIn_inst6_n54 (7) |   2.696009 |    OKAY |
+|         4.237696s |        3.794832GB |        235520 / 590635 |                          RegIn_inst6_n54 (7) |   2.247585 |    OKAY |
+|         4.487197s |        3.794832GB |        245760 / 603103 |                          RegIn_inst6_n54 (7) |   2.180189 |    OKAY |
+|         4.761281s |        3.807836GB |        256000 / 615295 |                          RegIn_inst6_n66 (5) |   2.198982 |    OKAY |
+|         5.044611s |        3.807836GB |        266240 / 627223 |                          RegIn_inst6_n66 (5) |   1.837225 |    OKAY |
+|         5.320553s |        3.807836GB |        276480 / 638939 |                          RegIn_instX_n35 (4) |   2.209635 |    OKAY |
+|         5.592248s |        3.807836GB |        286720 / 650407 |                          RegIn_instX_n35 (4) |   2.472278 |    OKAY |
+|         5.879025s |        3.807836GB |        296960 / 661673 |                          RegIn_instX_n35 (4) |   2.524384 |    OKAY |
+|         6.170139s |        3.807836GB |        307200 / 672775 |                          RegIn_instX_n35 (4) |   3.005781 |    OKAY |
+|         6.465418s |        3.817052GB |        317440 / 683671 |                          RegIn_instX_n35 (4) |   2.864265 |    OKAY |
+|         6.704227s |        3.827808GB |        327680 / 694389 |                          RegIn_instX_n35 (4) |   2.530430 |    OKAY |
+|         7.014575s |        3.827808GB |        337920 / 704931 |                          RegIn_instX_n35 (4) |   2.314373 |    OKAY |
+|         7.331023s |        3.827808GB |        348160 / 715333 |                          RegIn_instX_n35 (4) |   2.509991 |    OKAY |
+|         7.570077s |        3.827808GB |        358400 / 725581 |                          RegIn_instX_n49 (4) |   2.170045 |    OKAY |
+|         7.875335s |        3.827808GB |        368640 / 735649 |                          RegIn_instX_n49 (4) |   2.102256 |    OKAY |
+|         8.190516s |        3.827808GB |        378880 / 745557 |                          RegIn_instX_n49 (4) |   2.528735 |    OKAY |
+|         8.535974s |        3.827808GB |        389120 / 755359 |                          RegIn_instX_n49 (4) |   2.914458 |    OKAY |
+|         8.882897s |        3.827808GB |        399360 / 765057 |                          RegIn_instX_n49 (4) |   2.967136 |    OKAY |
+|         9.253091s |        3.827808GB |        409600 / 774607 |                          RegIn_instX_n49 (4) |   2.848414 |    OKAY |
+|         9.570160s |        3.837036GB |        419840 / 784015 |                          RegIn_instX_n49 (4) |   3.213700 |    OKAY |
+|         9.926932s |        3.840112GB |        430080 / 793313 |                          RegIn_instX_n49 (4) |   3.238129 |    OKAY |
+|        10.314369s |        3.864688GB |        440320 / 802489 |                          RegIn_instX_n35 (4) |   3.264897 |    OKAY |
+|        10.677144s |        3.864688GB |        450560 / 811559 |                          RegIn_instX_n35 (4) |   3.507780 |    OKAY |
+|        11.062588s |        3.864688GB |        460800 / 820539 |                          RegIn_instX_n35 (4) |   3.533196 |    OKAY |
+|        11.435591s |        3.864688GB |        471040 / 829429 |                          RegIn_instX_n35 (4) |   3.220671 |    OKAY |
+|        11.896652s |        3.864688GB |        481280 / 838209 |                          RegIn_instX_n35 (4) |   2.930405 |    OKAY |
+|        12.264593s |        3.864688GB |        491520 / 846877 |                          RegIn_instX_n35 (4) |   2.747266 |    OKAY |
+|        12.598020s |        3.883120GB |        501760 / 855455 |                          RegIn_instX_n35 (4) |   2.618751 |    OKAY |
+|        12.913627s |        3.883120GB |        512000 / 863931 |                          RegIn_instX_n35 (4) |   2.691847 |    OKAY |
+|        13.333532s |        3.883120GB |        522240 / 872347 |                          RegIn_instX_n35 (4) |   3.090011 |    OKAY |
+|        13.671010s |        3.883120GB |        532480 / 880657 |                          RegIn_instX_n35 (4) |   3.060829 |    OKAY |
+|        14.031861s |        3.901604GB |        542720 / 888893 |                          RegIn_instX_n35 (4) |   3.020517 |    OKAY |
+|        14.471149s |        3.901604GB |        552960 / 897051 |                          RegIn_instX_n35 (4) |   3.304804 |    OKAY |
+|        14.934045s |        3.967140GB |        563200 / 905115 |                          RegIn_instX_n35 (4) |   3.197931 |    OKAY |
+|        15.303244s |        3.967140GB |        573440 / 913097 |                          RegIn_instX_n35 (4) |   3.191144 |    OKAY |
+|        15.744983s |        3.967140GB |        583680 / 921003 |                          RegIn_instX_n35 (4) |   3.114518 |    OKAY |
+|        16.213575s |        3.967140GB |        593920 / 928821 |                          RegIn_instX_n35 (4) |   3.187384 |    OKAY |
+|        16.593836s |        3.967140GB |        604160 / 936601 |                          RegIn_instX_n35 (4) |   3.149535 |    OKAY |
+|        17.081713s |        3.967140GB |        614400 / 944295 |                          RegIn_instX_n35 (4) |   3.275555 |    OKAY |
+|        17.575026s |        3.967140GB |        624640 / 951927 |                          RegIn_instX_n35 (4) |   2.901918 |    OKAY |
+|        18.074071s |        3.985572GB |        634880 / 959521 |                          RegIn_instX_n35 (4) |   2.828471 |    OKAY |
+|        18.502757s |        4.007072GB |        645120 / 967037 |                          RegIn_instX_n35 (4) |   2.933268 |    OKAY |
+|        18.991495s |        4.007072GB |        655360 / 974479 |                          RegIn_instX_n35 (4) |   2.827369 |    OKAY |
+|        19.530564s |        4.007072GB |        665600 / 981865 |                          RegIn_instX_n35 (4) |   2.686129 |    OKAY |
+|        19.912917s |        4.007072GB |        675840 / 989201 |                          RegIn_instX_n49 (4) |   2.583360 |    OKAY |
+|        20.417767s |        4.007072GB |        686080 / 996469 |                          RegIn_instX_n49 (4) |   2.558858 |    OKAY |
+|        20.820440s |        4.007072GB |       696320 / 1003677 |                          RegIn_instX_n35 (4) |   2.415364 |    OKAY |
+|        21.236546s |        4.007728GB |       706560 / 1010839 |                          RegIn_instX_n35 (4) |   2.766583 |    OKAY |
+|        21.770507s |        4.007728GB |       716800 / 1017939 |                          RegIn_instX_n35 (4) |   2.719468 |    OKAY |
+|        22.229183s |        4.007860GB |       727040 / 1024959 |                          RegIn_instX_n35 (4) |   3.129048 |    OKAY |
+|        22.771886s |        4.008256GB |       737280 / 1031925 |                          RegIn_instX_n35 (4) |   3.187552 |    OKAY |
+|        23.228545s |        4.008520GB |       747520 / 1038825 |                          RegIn_instX_n35 (4) |   3.038130 |    OKAY |
+|        23.670902s |        4.008520GB |       757760 / 1045725 |                          RegIn_instX_n35 (4) |   2.897911 |    OKAY |
+|        24.165094s |        4.008520GB |       768000 / 1052561 |                          RegIn_instX_n35 (4) |   2.729139 |    OKAY |
+|        24.588595s |        4.008520GB |       778240 / 1059349 |                          RegIn_instX_n35 (4) |   2.943248 |    OKAY |
+|        25.025377s |        4.009968GB |       788480 / 1066085 |                          RegIn_instX_n35 (4) |   2.921110 |    OKAY |
+|        25.455434s |        4.009968GB |       798720 / 1072783 |                          RegIn_instX_n35 (4) |   2.896603 |    OKAY |
+|        25.963126s |        4.009968GB |       808960 / 1079435 |                          RegIn_instX_n35 (4) |   3.021694 |    OKAY |
+|        26.411338s |        4.010232GB |       819200 / 1086029 |                          RegIn_instX_n35 (4) |   2.828695 |    OKAY |
+|        26.860161s |        4.010232GB |       829440 / 1092587 |                          RegIn_instX_n35 (4) |   2.895215 |    OKAY |
+|        27.328961s |        4.029604GB |       839680 / 1099097 |                          RegIn_instX_n35 (4) |   2.639573 |    OKAY |
+|        27.792459s |        4.054460GB |       849920 / 1105595 |                          RegIn_instX_n35 (4) |   3.099481 |    OKAY |
+|        28.283119s |        4.055384GB |       860160 / 1112027 |                          RegIn_instX_n35 (4) |   3.453670 |    OKAY |
+|        28.813553s |        4.092248GB |       870400 / 1118385 |                          RegIn_instX_n35 (4) |   3.616309 |    OKAY |
+|        29.317448s |        4.092512GB |       880640 / 1124721 |                          RegIn_instX_n35 (4) |   3.587185 |    OKAY |
+|        29.803369s |        4.093304GB |       890880 / 1131041 |                          RegIn_instX_n35 (4) |   3.772525 |    OKAY |
+|        30.344644s |        4.093304GB |       901120 / 1137291 |                          RegIn_instX_n35 (4) |   3.882003 |    OKAY |
+|        30.867251s |        4.093304GB |       911360 / 1143523 |                          RegIn_instX_n35 (4) |   3.829281 |    OKAY |
+|        31.444298s |        4.093304GB |       921600 / 1149697 |                          RegIn_instX_n35 (4) |   3.905618 |    OKAY |
+|        31.956019s |        4.093304GB |       931840 / 1155861 |                          RegIn_instX_n35 (4) |   3.883122 |    OKAY |
+|        32.471252s |        4.093436GB |       942080 / 1162001 |                          RegIn_instX_n35 (4) |   3.911934 |    OKAY |
+|        33.031002s |        4.093436GB |       952320 / 1168103 |                          RegIn_instX_n35 (4) |   4.069216 |    OKAY |
+|        33.568161s |        4.093436GB |       962560 / 1174161 |                          RegIn_instX_n35 (4) |   4.078732 |    OKAY |
+|        34.108603s |        4.094888GB |       972800 / 1180201 |                          RegIn_instX_n35 (4) |   4.215004 |    OKAY |
+|        34.675090s |        4.094888GB |       983040 / 1186189 |                          RegIn_instX_n35 (4) |   4.314112 |    OKAY |
+|        35.228870s |        4.094888GB |       993280 / 1192143 |                          RegIn_instX_n35 (4) |   4.128117 |    OKAY |
+|        35.814737s |        4.119464GB |      1003520 / 1198051 |                          RegIn_instX_n35 (4) |   4.127464 |    OKAY |
+|        36.378127s |        4.119464GB |      1013760 / 1203947 |                          RegIn_instX_n35 (4) |   4.105465 |    OKAY |
+|        36.941031s |        4.185400GB |      1024000 / 1209797 |                          RegIn_instX_n35 (4) |   3.935511 |    OKAY |
+|        37.497476s |        4.189404GB |      1034240 / 1215633 |                          RegIn_instX_n35 (4) |   3.908705 |    OKAY |
+|        38.057125s |        4.254940GB |      1044480 / 1221411 |                          RegIn_instX_n35 (4) |   4.163207 |    OKAY |
+|        38.708611s |        4.392692GB |      1054720 / 1227165 |                          RegIn_instX_n35 (4) |   4.141849 |    OKAY |
+|        39.292793s |        4.593436GB |      1064960 / 1232897 |                          RegIn_instX_n35 (4) |   3.766612 |    OKAY |
+|        39.879778s |        4.986652GB |      1075200 / 1238583 |                          RegIn_instX_n35 (4) |   3.859920 |    OKAY |
+|        40.477844s |        4.986652GB |      1085440 / 1244265 |                          RegIn_instX_n35 (4) |   3.691789 |    OKAY |
+|        41.062420s |        5.052188GB |      1095680 / 1249925 |                          RegIn_instX_n35 (4) |   3.884074 |    OKAY |
+|        41.656637s |        5.052188GB |      1105920 / 1255551 |                          RegIn_instX_n35 (4) |   4.110722 |    OKAY |
+|        42.342678s |        5.052188GB |      1116160 / 1261155 |                          RegIn_instX_n35 (4) |   4.132758 |    OKAY |
+|        43.159173s |        5.117724GB |      1126400 / 1266703 |                          RegIn_instX_n35 (4) |   4.025166 |    OKAY |
+|        43.771027s |        5.183260GB |      1136640 / 1272231 |                          RegIn_instX_n35 (4) |   3.897182 |    OKAY |
+|        44.380085s |        5.248796GB |      1146880 / 1277745 |                          RegIn_instX_n35 (4) |   4.056602 |    OKAY |
+|        44.985598s |        5.248796GB |      1157120 / 1283203 |                          RegIn_instX_n35 (4) |   4.289877 |    OKAY |
+|        45.619321s |        5.248796GB |      1167360 / 1288651 |                          RegIn_instX_n35 (4) |   4.232982 |    OKAY |
+|        46.254387s |        5.314332GB |      1177600 / 1294089 |                          RegIn_instX_n35 (4) |   4.136389 |    OKAY |
+|        46.970627s |        5.314332GB |      1187840 / 1299497 |                          RegIn_instX_n35 (4) |   4.098711 |    OKAY |
+|        47.688913s |        5.314332GB |      1198080 / 1304855 |                          RegIn_instX_n35 (4) |   4.133945 |    OKAY |
+|        48.342793s |        5.314332GB |      1208320 / 1310201 |                          RegIn_instX_n35 (4) |   3.992032 |    OKAY |
+|        49.009862s |        5.314332GB |      1218560 / 1315515 |                          RegOut_inst_n56 (5) |  13.352491 | LEAKAGE |
+|        49.676030s |        5.314332GB |      1228800 / 1320813 |                          RegOut_inst_n56 (5) |  13.352439 | LEAKAGE |
+|        50.339754s |        5.314332GB |      1239040 / 1326067 |                          RegOut_inst_n56 (5) |  13.351450 | LEAKAGE |
+|        51.016244s |        5.314332GB |      1249280 / 1331311 |                          RegOut_inst_n56 (5) |  13.348533 | LEAKAGE |
+|        51.704302s |        5.314332GB |      1259520 / 1336513 |                          RegOut_inst_n56 (5) |  13.349752 | LEAKAGE |
+|        52.395255s |        5.422876GB |      1269760 / 1341709 |                          RegOut_inst_n56 (5) |  13.348581 | LEAKAGE |
+|        53.157684s |        5.472028GB |      1280000 / 1346863 |                          RegOut_inst_n66 (5) |  36.384842 | LEAKAGE |
+|        53.829659s |        5.472028GB |      1290240 / 1352015 |                          RegOut_inst_n66 (5) |  36.389782 | LEAKAGE |
+|        54.531378s |        5.472028GB |      1300480 / 1357147 |                          RegOut_inst_n66 (5) |  36.689871 | LEAKAGE |
+|        55.261325s |        5.472028GB |      1310720 / 1362243 |                          RegOut_inst_n66 (5) |  36.687475 | LEAKAGE |
+|        55.972688s |        5.472028GB |      1320960 / 1367343 |                          RegOut_inst_n66 (5) |  48.023098 | LEAKAGE |
+|        56.693249s |        5.472028GB |      1331200 / 1372411 |                          RegOut_inst_n66 (5) |  48.022844 | LEAKAGE |
+|        57.405911s |        5.472028GB |      1341440 / 1377453 |                          RegOut_inst_n66 (5) |  48.318980 | LEAKAGE |
+|        58.153276s |        5.537564GB |      1351680 / 1382475 |                          RegOut_inst_n66 (5) |  48.621144 | LEAKAGE |
+|        58.866136s |        5.603100GB |      1361920 / 1387471 |                          RegOut_inst_n66 (5) |  48.617383 | LEAKAGE |
+|        59.722470s |        5.603100GB |      1372160 / 1392459 |                          RegOut_inst_n66 (5) |  48.616214 | LEAKAGE |
+|        60.494598s |        5.668636GB |      1382400 / 1397411 |                          RegOut_inst_n66 (5) |  49.210133 | LEAKAGE |
+|        61.253745s |        5.668636GB |      1392640 / 1402343 |                          RegOut_inst_n66 (5) |  49.215326 | LEAKAGE |
+|        62.027744s |        5.668636GB |      1402880 / 1407259 |                          RegOut_inst_n66 (5) |  49.214066 | LEAKAGE |
+|        62.833412s |        5.668636GB |      1413120 / 1412145 |                          RegOut_inst_n66 (5) |  49.219052 | LEAKAGE |
+|        63.882747s |        5.668636GB |      1423360 / 1417039 |                          RegOut_inst_n66 (5) |  92.753132 | LEAKAGE |
+|        64.628154s |        5.668636GB |      1433600 / 1421909 |                          RegOut_inst_n66 (5) | 124.657521 | LEAKAGE |
+|        65.436076s |        5.668636GB |      1443840 / 1426747 |                          RegOut_inst_n66 (5) | 124.946288 | LEAKAGE |
+|        66.226474s |        5.668636GB |      1454080 / 1431587 |                          RegOut_inst_n66 (5) | 126.130374 | LEAKAGE |
+|        67.084354s |        5.668636GB |      1464320 / 1436403 |                          RegOut_inst_n66 (5) | 145.281257 | LEAKAGE |
+|        67.951577s |        5.668636GB |      1474560 / 1441181 |                          RegOut_inst_n66 (5) | 146.455324 | LEAKAGE |
+|        69.005340s |        5.668636GB |      1484800 / 1445959 |                          RegOut_inst_n52 (5) | 148.130854 | LEAKAGE |
+|        69.910257s |        5.668636GB |      1495040 / 1450691 |                          RegOut_inst_n66 (5) | 181.533612 | LEAKAGE |
+|        70.737333s |        5.799708GB |      1505280 / 1455421 |                          RegOut_inst_n52 (5) | 237.946668 | LEAKAGE |
+|        71.583053s |        5.799708GB |      1515520 / 1460125 |                          RegOut_inst_n52 (5) | 261.452624 | LEAKAGE |
+|        72.412019s |        5.865244GB |      1525760 / 1464819 |                          RegOut_inst_n52 (5) | 293.901981 | LEAKAGE |
+|        73.258666s |        5.852940GB |      1536000 / 1469511 |                          RegOut_inst_n52 (5) | 315.035630 | LEAKAGE |
+----------------------------------------------------------------------------------------------------------------------------------------
+Evaluation done in 81.7288 seconds!
+done!

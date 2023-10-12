@@ -1,0 +1,247 @@
+Report file after 1536000 simulations:
+
+1.) Summary of most leaking (and already active) probing sets per clock cycle: 
+
+Cycle 4: @[RegIn_inst6_n64(4)] ==> [reshare6[2](4), reshare6_m[2](4), en_in(4), rst(4)] -log10(p) = 1.66708 --> OKAY
+Cycle 5: @[RegOut_inst_n66(5)] ==> [en_out(5), z0[0](5), reshare6[6](5), reshare0[5](5), reshare0[4](5), reshare0[3](5), reshare0[2](5), reshare0[1](5), reshare0[0](5), x[0](5), x[1](5), t2[4](5), x[3](5), x[4](5), x[5](5), x[6](5), x[7](5), x[8](5), x[9](5), x[10](5), x[11](5), x[12](5), x[13](5), t2[12](5), x[15](5), rst(5)] -log10(p) = 241.995 --> LEAKAGE
+Cycle 6: @[RegOut_inst_n66(6)] ==> [en_out(6), z0[0](6), reshare6[6](6), reshare0[5](6), reshare0[4](6), reshare0[3](6), reshare0[2](6), reshare0[1](6), reshare0[0](6), x[0](6), x[1](6), t2[4](6), x[3](6), x[4](6), x[5](6), x[6](6), x[7](6), x[8](6), x[9](6), x[10](6), x[11](6), x[12](6), x[13](6), t2[12](6), x[15](6), rst(6)] -log10(p) = 241.995 --> LEAKAGE
+Cycle 7: @[RegIn_inst6_n64(7)] ==> [reshare6[2](7), reshare6_m[2](7), en_in(7), rst(7)] -log10(p) = 2.20942 --> OKAY
+
+2.) Summary of the most leakging (and already active) probing sets: 
+
+@[RegOut_inst_n66(5)] ==> [en_out(5), z0[0](5), reshare6[6](5), reshare0[5](5), reshare0[4](5), reshare0[3](5), reshare0[2](5), reshare0[1](5), reshare0[0](5), x[0](5), x[1](5), t2[4](5), x[3](5), x[4](5), x[5](5), x[6](5), x[7](5), x[8](5), x[9](5), x[10](5), x[11](5), x[12](5), x[13](5), t2[12](5), x[15](5), rst(5)] -log10(p) = 241.995 --> LEAKAGE
+@[RegOut_inst_n66(6)] ==> [en_out(6), z0[0](6), reshare6[6](6), reshare0[5](6), reshare0[4](6), reshare0[3](6), reshare0[2](6), reshare0[1](6), reshare0[0](6), x[0](6), x[1](6), t2[4](6), x[3](6), x[4](6), x[5](6), x[6](6), x[7](6), x[8](6), x[9](6), x[10](6), x[11](6), x[12](6), x[13](6), t2[12](6), x[15](6), rst(6)] -log10(p) = 241.995 --> LEAKAGE
+@[RegOut_inst_n52(5)] ==> [en_out(5), reshare6[14](5), reshare0[5](5), reshare0[4](5), reshare0[3](5), reshare0[2](5), reshare0[1](5), reshare0[0](5), x[0](5), x[1](5), t2[4](5), x[3](5), x[4](5), x[5](5), x[6](5), x[7](5), x[8](5), x[9](5), x[10](5), x[11](5), x[12](5), x[13](5), t2[12](5), x[15](5), rst(5), z_out[14](5)] -log10(p) = 215.312 --> LEAKAGE
+@[RegOut_inst_n52(6)] ==> [en_out(6), reshare6[14](6), reshare0[5](6), reshare0[4](6), reshare0[3](6), reshare0[2](6), reshare0[1](6), reshare0[0](6), x[0](6), x[1](6), t2[4](6), x[3](6), x[4](6), x[5](6), x[6](6), x[7](6), x[8](6), x[9](6), x[10](6), x[11](6), x[12](6), x[13](6), t2[12](6), x[15](6), rst(6), z_out[14](6)] -log10(p) = 215.312 --> LEAKAGE
+@[RegOut_inst_n56(5)] ==> [en_out(5), reshare6[13](5), reshare0[5](5), reshare0[4](5), reshare0[3](5), reshare0[2](5), reshare0[1](5), reshare0[0](5), x[0](5), x[1](5), t2[4](5), x[3](5), x[4](5), x[5](5), x[6](5), x[7](5), x[8](5), x[9](5), x[10](5), x[11](5), x[12](5), x[13](5), t2[12](5), x[15](5), rst(5), z_out[10](5)] -log10(p) = 212.112 --> LEAKAGE
+@[RegOut_inst_n56(6)] ==> [en_out(6), reshare6[13](6), reshare0[5](6), reshare0[4](6), reshare0[3](6), reshare0[2](6), reshare0[1](6), reshare0[0](6), x[0](6), x[1](6), t2[4](6), x[3](6), x[4](6), x[5](6), x[6](6), x[7](6), x[8](6), x[9](6), x[10](6), x[11](6), x[12](6), x[13](6), t2[12](6), x[15](6), rst(6), z_out[10](6)] -log10(p) = 212.112 --> LEAKAGE
+@[RegIn_inst6_n64(7)] ==> [reshare6[2](7), reshare6_m[2](7), en_in(7), rst(7)] -log10(p) = 2.20942 --> OKAY
+@[RegIn_inst6_n63(5)] ==> [reshare6[3](5), reshare6_m[3](5), en_in(5), rst(5)] -log10(p) = 1.81491 --> OKAY
+@[RegIn_inst6_n64(4)] ==> [reshare6[2](4), reshare6_m[2](4), en_in(4), rst(4)] -log10(p) = 1.66708 --> OKAY
+@[RegIn_inst6_n56(4)] ==> [reshare6[10](4), reshare6_m[7](4), reshare6_m[5](4), reshare6_m[2](4), reshare6_m[1](4), reshare6_m[0](4), en_in(4), rst(4)] -log10(p) = 1.60332 --> OKAY
+@[z1[3](7)] ==> [z_out[8](7), z_out[10](7), z_out[12](7), z_out[14](7)] -log10(p) = 1.40773 --> OKAY
+@[RegIn_inst0_n65(4)] ==> [reshare0[1](4), reshare0_m[1](4), en_in(4), rst(4)] -log10(p) = 1.39192 --> OKAY
+@[RegIn_inst6_n64(5)] ==> [reshare6[2](5), reshare6_m[2](5), en_in(5), rst(5)] -log10(p) = 1.33898 --> OKAY
+@[RegIn_inst6_n59(4)] ==> [reshare6[7](4), reshare6_m[7](4), en_in(4), rst(4)] -log10(p) = 1.33473 --> OKAY
+@[RegIn_instX_n44(5)] ==> [x[9](5), x1[0](5), x1[1](5), x1[6](5), en_in(5), rst(5), x1[4](5)] -log10(p) = 1.3321 --> OKAY
+@[RegIn_instX_n44(6)] ==> [x[9](6), x1[0](6), x1[1](6), x1[6](6), en_in(6), rst(6), x1[4](6)] -log10(p) = 1.3321 --> OKAY
+@[RegIn_instX_n44(7)] ==> [x[9](7), x1[0](7), x1[1](7), x1[6](7), en_in(7), rst(7), x1[4](7)] -log10(p) = 1.3321 --> OKAY
+@[RegIn_inst6_n53(4)] ==> [reshare6[13](4), reshare6_m[7](4), reshare6_m[5](4), reshare6_m[4](4), reshare6_m[0](4), en_in(4), rst(4)] -log10(p) = 1.30503 --> OKAY
+@[RegIn_inst6_n51(4)] ==> [reshare6[15](4), reshare6_m[7](4), reshare6_m[4](4), reshare6_m[2](4), en_in(4), rst(4)] -log10(p) = 1.26827 --> OKAY
+@[RegIn_inst0_n62(6)] ==> [reshare0[4](6), reshare0_m[4](6), en_in(6), rst(6)] -log10(p) = 1.21525 --> OKAY
+@[RegIn_inst6_n66(5)] ==> [reshare6[0](5), reshare6_m[0](5), en_in(5), rst(5)] -log10(p) = 1.19135 --> OKAY
+@[RegIn_inst6_n54(7)] ==> [reshare6[12](7), reshare6_m[7](7), reshare6_m[6](7), reshare6_m[3](7), reshare6_m[2](7), en_in(7), rst(7)] -log10(p) = 1.17986 --> OKAY
+@[RegIn_inst0_n53(6)] ==> [reshare0_m[7](6), reshare0_m[5](6), reshare0_m[4](6), reshare0_m[0](6), en_in(6), rst(6)] -log10(p) = 1.1737 --> OKAY
+@[RegIn_inst0_n63(4)] ==> [reshare0[3](4), reshare0_m[3](4), en_in(4), rst(4)] -log10(p) = 1.04594 --> OKAY
+@[RegIn_inst0_n65(7)] ==> [reshare0[1](7), reshare0_m[1](7), en_in(7), rst(7)] -log10(p) = 1.03366 --> OKAY
+@[RegIn_instX_n38(4)] ==> [x[3](4), x0[3](4), en_in(4), rst(4)] -log10(p) = 0.982309 --> OKAY
+@[RegIn_instX_n38(5)] ==> [x[3](5), x0[3](5), en_in(5), rst(5)] -log10(p) = 0.982309 --> OKAY
+@[RegIn_instX_n38(6)] ==> [x[3](6), x0[3](6), en_in(6), rst(6)] -log10(p) = 0.982309 --> OKAY
+@[RegIn_instX_n38(7)] ==> [x[3](7), x0[3](7), en_in(7), rst(7)] -log10(p) = 0.982309 --> OKAY
+@[RegIn_inst6_n59(5)] ==> [reshare6[7](5), reshare6_m[7](5), en_in(5), rst(5)] -log10(p) = 0.974017 --> OKAY
+@[RegIn_inst0_n63(6)] ==> [reshare0[3](6), reshare0_m[3](6), en_in(6), rst(6)] -log10(p) = 0.972275 --> OKAY
+@[RegIn_inst0_n64(6)] ==> [reshare0[2](6), reshare0_m[2](6), en_in(6), rst(6)] -log10(p) = 0.964744 --> OKAY
+@[RegIn_inst0_n51(4)] ==> [reshare0_m[7](4), reshare0_m[4](4), reshare0_m[2](4), en_in(4), rst(4)] -log10(p) = 0.945443 --> OKAY
+@[RegIn_inst0_n63(7)] ==> [reshare0[3](7), reshare0_m[3](7), en_in(7), rst(7)] -log10(p) = 0.931189 --> OKAY
+@[z1[2](7)] ==> [z_out[13](7), z_out[10](7), z_out[12](7), z_out[14](7), z_out[15](7)] -log10(p) = 0.929456 --> OKAY
+@[RegIn_inst6_n64(6)] ==> [reshare6[2](6), reshare6_m[2](6), en_in(6), rst(6)] -log10(p) = 0.921617 --> OKAY
+@[RegIn_instX_n44(4)] ==> [x[9](4), x1[0](4), x1[1](4), x1[6](4), en_in(4), rst(4), x1[4](4)] -log10(p) = 0.898471 --> OKAY
+@[RegIn_inst0_n51(6)] ==> [reshare0_m[7](6), reshare0_m[4](6), reshare0_m[2](6), en_in(6), rst(6)] -log10(p) = 0.896575 --> OKAY
+@[RegIn_inst6_n58(5)] ==> [reshare6[8](5), reshare6_m[5](5), reshare6_m[3](5), reshare6_m[0](5), en_in(5), rst(5)] -log10(p) = 0.894106 --> OKAY
+@[RegIn_inst0_n56(6)] ==> [reshare0_m[7](6), reshare0_m[5](6), reshare0_m[2](6), reshare0_m[1](6), reshare0_m[0](6), en_in(6), rst(6)] -log10(p) = 0.881437 --> OKAY
+@[RegIn_inst0_n52(4)] ==> [reshare0_m[6](4), reshare0_m[3](4), reshare0_m[1](4), en_in(4), rst(4)] -log10(p) = 0.861962 --> OKAY
+@[RegIn_inst6_n57(5)] ==> [reshare6[9](5), reshare6_m[6](5), reshare6_m[4](5), reshare6_m[1](5), reshare6_m[0](5), en_in(5), rst(5)] -log10(p) = 0.859777 --> OKAY
+@[RegIn_inst6_n59(6)] ==> [reshare6[7](6), reshare6_m[7](6), en_in(6), rst(6)] -log10(p) = 0.844733 --> OKAY
+@[RegIn_inst0_n65(5)] ==> [reshare0[1](5), reshare0_m[1](5), en_in(5), rst(5)] -log10(p) = 0.812405 --> OKAY
+@[RegIn_inst0_n61(4)] ==> [reshare0[5](4), reshare0_m[5](4), en_in(4), rst(4)] -log10(p) = 0.799541 --> OKAY
+@[RegIn_inst6_n54(5)] ==> [reshare6[12](5), reshare6_m[7](5), reshare6_m[6](5), reshare6_m[3](5), reshare6_m[2](5), en_in(5), rst(5)] -log10(p) = 0.795517 --> OKAY
+@[RegIn_inst0_n58(4)] ==> [reshare0_m[5](4), reshare0_m[3](4), reshare0_m[0](4), en_in(4), rst(4)] -log10(p) = 0.778088 --> OKAY
+@[RegIn_inst6_n54(4)] ==> [reshare6[12](4), reshare6_m[7](4), reshare6_m[6](4), reshare6_m[3](4), reshare6_m[2](4), en_in(4), rst(4)] -log10(p) = 0.754193 --> OKAY
+@[RegIn_inst0_n66(7)] ==> [reshare0[0](7), reshare0_m[0](7), en_in(7), rst(7)] -log10(p) = 0.67868 --> OKAY
+@[RegIn_inst6_n59(7)] ==> [reshare6[7](7), reshare6_m[7](7), en_in(7), rst(7)] -log10(p) = 0.671218 --> OKAY
+@[RegIn_inst0_n63(5)] ==> [reshare0[3](5), reshare0_m[3](5), en_in(5), rst(5)] -log10(p) = 0.659478 --> OKAY
+@[RegIn_inst6_n55(4)] ==> [reshare6[11](4), reshare6_m[6](4), reshare6_m[5](4), reshare6_m[2](4), reshare6_m[1](4), en_in(4), rst(4)] -log10(p) = 0.654157 --> OKAY
+@[RegIn_inst0_n53(4)] ==> [reshare0_m[7](4), reshare0_m[5](4), reshare0_m[4](4), reshare0_m[0](4), en_in(4), rst(4)] -log10(p) = 0.648581 --> OKAY
+@[RegIn_instX_n45(5)] ==> [x[10](5), x1[0](5), x1[5](5), x1[1](5), en_in(5), rst(5), x1[2](5), x1[7](5)] -log10(p) = 0.635423 --> OKAY
+@[RegIn_instX_n45(6)] ==> [x[10](6), x1[0](6), x1[5](6), x1[1](6), en_in(6), rst(6), x1[2](6), x1[7](6)] -log10(p) = 0.635423 --> OKAY
+@[RegIn_instX_n45(7)] ==> [x[10](7), x1[0](7), x1[5](7), x1[1](7), en_in(7), rst(7), x1[2](7), x1[7](7)] -log10(p) = 0.635423 --> OKAY
+@[RegIn_inst0_n65(6)] ==> [reshare0[1](6), reshare0_m[1](6), en_in(6), rst(6)] -log10(p) = 0.62491 --> OKAY
+@[RegIn_inst0_n57(4)] ==> [reshare0_m[6](4), reshare0_m[4](4), reshare0_m[1](4), reshare0_m[0](4), en_in(4), rst(4)] -log10(p) = 0.62013 --> OKAY
+@[RegIn_inst0_n52(5)] ==> [reshare0_m[6](5), reshare0_m[3](5), reshare0_m[1](5), en_in(5), rst(5)] -log10(p) = 0.608701 --> OKAY
+@[RegIn_inst0_n62(4)] ==> [reshare0[4](4), reshare0_m[4](4), en_in(4), rst(4)] -log10(p) = 0.588438 --> OKAY
+@[RegIn_inst0_n61(6)] ==> [reshare0[5](6), reshare0_m[5](6), en_in(6), rst(6)] -log10(p) = 0.568113 --> OKAY
+@[RegIn_inst6_n63(4)] ==> [reshare6[3](4), reshare6_m[3](4), en_in(4), rst(4)] -log10(p) = 0.55303 --> OKAY
+@[RegIn_instX_n37(4)] ==> [t2[4](4), x0[2](4), en_in(4), rst(4)] -log10(p) = 0.539728 --> OKAY
+@[RegIn_instX_n37(5)] ==> [t2[4](5), x0[2](5), en_in(5), rst(5)] -log10(p) = 0.539728 --> OKAY
+@[RegIn_instX_n37(6)] ==> [t2[4](6), x0[2](6), en_in(6), rst(6)] -log10(p) = 0.539728 --> OKAY
+@[RegIn_instX_n37(7)] ==> [t2[4](7), x0[2](7), en_in(7), rst(7)] -log10(p) = 0.539728 --> OKAY
+@[RegIn_inst6_n63(6)] ==> [reshare6[3](6), reshare6_m[3](6), en_in(6), rst(6)] -log10(p) = 0.530339 --> OKAY
+@[RegIn_inst0_n61(5)] ==> [reshare0[5](5), reshare0_m[5](5), en_in(5), rst(5)] -log10(p) = 0.519942 --> OKAY
+@[RegIn_inst6_n61(4)] ==> [reshare6[5](4), reshare6_m[5](4), en_in(4), rst(4)] -log10(p) = 0.516682 --> OKAY
+@[RegIn_inst0_n56(4)] ==> [reshare0_m[7](4), reshare0_m[5](4), reshare0_m[2](4), reshare0_m[1](4), reshare0_m[0](4), en_in(4), rst(4)] -log10(p) = 0.513255 --> OKAY
+@[RegIn_inst6_n52(5)] ==> [reshare6[14](5), reshare6_m[6](5), reshare6_m[3](5), reshare6_m[1](5), en_in(5), rst(5)] -log10(p) = 0.475506 --> OKAY
+@[RegIn_instX_n46(4)] ==> [x[11](4), x1[5](4), x1[1](4), x1[6](4), en_in(4), rst(4), x1[2](4)] -log10(p) = 0.474996 --> OKAY
+@[RegIn_inst6_n65(4)] ==> [reshare6[1](4), reshare6_m[1](4), en_in(4), rst(4)] -log10(p) = 0.455112 --> OKAY
+@[RegIn_instX_n49(4)] ==> [t2[12](4), x1[1](4), x1[3](4), x1[6](4), en_in(4), rst(4)] -log10(p) = 0.449375 --> OKAY
+@[RegIn_instX_n42(4)] ==> [x[7](4), x0[7](4), en_in(4), rst(4)] -log10(p) = 0.448498 --> OKAY
+@[RegIn_instX_n42(5)] ==> [x[7](5), x0[7](5), en_in(5), rst(5)] -log10(p) = 0.448498 --> OKAY
+@[RegIn_instX_n42(6)] ==> [x[7](6), x0[7](6), en_in(6), rst(6)] -log10(p) = 0.448498 --> OKAY
+@[RegIn_instX_n42(7)] ==> [x[7](7), x0[7](7), en_in(7), rst(7)] -log10(p) = 0.448498 --> OKAY
+@[RegIn_inst0_n51(5)] ==> [reshare0_m[7](5), reshare0_m[4](5), reshare0_m[2](5), en_in(5), rst(5)] -log10(p) = 0.435101 --> OKAY
+@[RegIn_inst0_n56(7)] ==> [reshare0_m[7](7), reshare0_m[5](7), reshare0_m[2](7), reshare0_m[1](7), reshare0_m[0](7), en_in(7), rst(7)] -log10(p) = 0.432684 --> OKAY
+@[RegIn_inst0_n55(7)] ==> [reshare0_m[6](7), reshare0_m[5](7), reshare0_m[2](7), reshare0_m[1](7), en_in(7), rst(7)] -log10(p) = 0.408179 --> OKAY
+@[RegIn_inst0_n57(7)] ==> [reshare0_m[6](7), reshare0_m[4](7), reshare0_m[1](7), reshare0_m[0](7), en_in(7), rst(7)] -log10(p) = 0.406596 --> OKAY
+@[RegIn_instX_n45(4)] ==> [x[10](4), x1[0](4), x1[5](4), x1[1](4), en_in(4), rst(4), x1[2](4), x1[7](4)] -log10(p) = 0.401418 --> OKAY
+@[RegIn_instX_n43(5)] ==> [x[8](5), x1[0](5), x1[5](5), x1[3](5), en_in(5), rst(5)] -log10(p) = 0.395565 --> OKAY
+@[RegIn_instX_n43(6)] ==> [x[8](6), x1[0](6), x1[5](6), x1[3](6), en_in(6), rst(6)] -log10(p) = 0.395565 --> OKAY
+@[RegIn_instX_n43(7)] ==> [x[8](7), x1[0](7), x1[5](7), x1[3](7), en_in(7), rst(7)] -log10(p) = 0.395565 --> OKAY
+@[RegIn_inst6_n51(5)] ==> [reshare6[15](5), reshare6_m[7](5), reshare6_m[4](5), reshare6_m[2](5), en_in(5), rst(5)] -log10(p) = 0.395034 --> OKAY
+@[RegIn_inst6_n57(6)] ==> [reshare6[9](6), reshare6_m[6](6), reshare6_m[4](6), reshare6_m[1](6), reshare6_m[0](6), en_in(6), rst(6)] -log10(p) = 0.390417 --> OKAY
+@[RegIn_inst0_n53(7)] ==> [reshare0_m[7](7), reshare0_m[5](7), reshare0_m[4](7), reshare0_m[0](7), en_in(7), rst(7)] -log10(p) = 0.373376 --> OKAY
+@[z1[1](7)] ==> [z_out[13](7), z_out[9](7), z_out[11](7), z_out[12](7), z_out[14](7)] -log10(p) = 0.328866 --> OKAY
+@[RegIn_instX_n40(4)] ==> [x[5](4), x0[5](4), en_in(4), rst(4)] -log10(p) = 0.318585 --> OKAY
+@[RegIn_instX_n40(5)] ==> [x[5](5), x0[5](5), en_in(5), rst(5)] -log10(p) = 0.318585 --> OKAY
+@[RegIn_instX_n40(6)] ==> [x[5](6), x0[5](6), en_in(6), rst(6)] -log10(p) = 0.318585 --> OKAY
+@[RegIn_instX_n40(7)] ==> [x[5](7), x0[5](7), en_in(7), rst(7)] -log10(p) = 0.318585 --> OKAY
+@[RegIn_inst0_n54(5)] ==> [reshare0_m[7](5), reshare0_m[6](5), reshare0_m[3](5), reshare0_m[2](5), en_in(5), rst(5)] -log10(p) = 0.30715 --> OKAY
+@[RegIn_inst6_n53(5)] ==> [reshare6[13](5), reshare6_m[7](5), reshare6_m[5](5), reshare6_m[4](5), reshare6_m[0](5), en_in(5), rst(5)] -log10(p) = 0.304916 --> OKAY
+@[RegIn_instX_n43(4)] ==> [x[8](4), x1[0](4), x1[5](4), x1[3](4), en_in(4), rst(4)] -log10(p) = 0.304673 --> OKAY
+@[RegIn_inst6_n62(5)] ==> [reshare6[4](5), reshare6_m[4](5), en_in(5), rst(5)] -log10(p) = 0.302654 --> OKAY
+@[RegIn_inst6_n63(7)] ==> [reshare6[3](7), reshare6_m[3](7), en_in(7), rst(7)] -log10(p) = 0.301877 --> OKAY
+@[z1[7](7)] ==> [z_out[9](7), z_out[10](7), z_out[11](7), z_out[12](7), z_out[14](7), z_out[15](7)] -log10(p) = 0.300467 --> OKAY
+@[RegIn_instX_n48(4)] ==> [x[13](4), x1[0](4), x1[5](4), en_in(4), rst(4), x1[4](4), x1[7](4)] -log10(p) = 0.299582 --> OKAY
+@[RegIn_inst6_n57(4)] ==> [reshare6[9](4), reshare6_m[6](4), reshare6_m[4](4), reshare6_m[1](4), reshare6_m[0](4), en_in(4), rst(4)] -log10(p) = 0.296622 --> OKAY
+@[RegIn_inst6_n58(6)] ==> [reshare6[8](6), reshare6_m[5](6), reshare6_m[3](6), reshare6_m[0](6), en_in(6), rst(6)] -log10(p) = 0.296038 --> OKAY
+@[RegIn_inst0_n54(6)] ==> [reshare0_m[7](6), reshare0_m[6](6), reshare0_m[3](6), reshare0_m[2](6), en_in(6), rst(6)] -log10(p) = 0.295023 --> OKAY
+@[RegIn_inst0_n58(6)] ==> [reshare0_m[5](6), reshare0_m[3](6), reshare0_m[0](6), en_in(6), rst(6)] -log10(p) = 0.285766 --> OKAY
+@[RegIn_inst0_n66(4)] ==> [reshare0[0](4), reshare0_m[0](4), en_in(4), rst(4)] -log10(p) = 0.281492 --> OKAY
+@[RegIn_inst0_n55(4)] ==> [reshare0_m[6](4), reshare0_m[5](4), reshare0_m[2](4), reshare0_m[1](4), en_in(4), rst(4)] -log10(p) = 0.270882 --> OKAY
+@[RegIn_inst6_n52(6)] ==> [reshare6[14](6), reshare6_m[6](6), reshare6_m[3](6), reshare6_m[1](6), en_in(6), rst(6)] -log10(p) = 0.269679 --> OKAY
+@[RegIn_inst6_n60(5)] ==> [reshare6[6](5), reshare6_m[6](5), en_in(5), rst(5)] -log10(p) = 0.266315 --> OKAY
+@[RegIn_instX_n46(5)] ==> [x[11](5), x1[5](5), x1[1](5), x1[6](5), en_in(5), rst(5), x1[2](5)] -log10(p) = 0.260386 --> OKAY
+@[RegIn_instX_n46(6)] ==> [x[11](6), x1[5](6), x1[1](6), x1[6](6), en_in(6), rst(6), x1[2](6)] -log10(p) = 0.260386 --> OKAY
+@[RegIn_instX_n46(7)] ==> [x[11](7), x1[5](7), x1[1](7), x1[6](7), en_in(7), rst(7), x1[2](7)] -log10(p) = 0.260386 --> OKAY
+@[z1[6](7)] ==> [z_out[8](7), z_out[13](7), z_out[9](7), z_out[10](7), z_out[11](7), z_out[14](7)] -log10(p) = 0.251788 --> OKAY
+@[RegIn_inst6_n61(7)] ==> [reshare6[5](7), reshare6_m[5](7), en_in(7), rst(7)] -log10(p) = 0.247864 --> OKAY
+@[RegIn_inst0_n61(7)] ==> [reshare0[5](7), reshare0_m[5](7), en_in(7), rst(7)] -log10(p) = 0.245041 --> OKAY
+@[RegIn_inst0_n66(5)] ==> [reshare0[0](5), reshare0_m[0](5), en_in(5), rst(5)] -log10(p) = 0.241749 --> OKAY
+@[RegIn_inst0_n55(5)] ==> [reshare0_m[6](5), reshare0_m[5](5), reshare0_m[2](5), reshare0_m[1](5), en_in(5), rst(5)] -log10(p) = 0.2348 --> OKAY
+@[RegIn_inst0_n62(5)] ==> [reshare0[4](5), reshare0_m[4](5), en_in(5), rst(5)] -log10(p) = 0.230562 --> OKAY
+@[RegIn_inst6_n65(6)] ==> [reshare6[1](6), reshare6_m[1](6), en_in(6), rst(6)] -log10(p) = 0.226093 --> OKAY
+@[RegIn_inst0_n54(4)] ==> [reshare0_m[7](4), reshare0_m[6](4), reshare0_m[3](4), reshare0_m[2](4), en_in(4), rst(4)] -log10(p) = 0.225846 --> OKAY
+@[RegIn_instX_n49(5)] ==> [t2[12](5), x1[1](5), x1[3](5), x1[6](5), en_in(5), rst(5)] -log10(p) = 0.221597 --> OKAY
+@[RegIn_instX_n49(6)] ==> [t2[12](6), x1[1](6), x1[3](6), x1[6](6), en_in(6), rst(6)] -log10(p) = 0.221597 --> OKAY
+@[RegIn_instX_n49(7)] ==> [t2[12](7), x1[1](7), x1[3](7), x1[6](7), en_in(7), rst(7)] -log10(p) = 0.221597 --> OKAY
+@[RegIn_instX_n36(4)] ==> [x[1](4), x0[1](4), en_in(4), rst(4)] -log10(p) = 0.213027 --> OKAY
+@[RegIn_instX_n36(5)] ==> [x[1](5), x0[1](5), en_in(5), rst(5)] -log10(p) = 0.213027 --> OKAY
+@[RegIn_instX_n36(6)] ==> [x[1](6), x0[1](6), en_in(6), rst(6)] -log10(p) = 0.213027 --> OKAY
+@[RegIn_instX_n36(7)] ==> [x[1](7), x0[1](7), en_in(7), rst(7)] -log10(p) = 0.213027 --> OKAY
+@[RegIn_inst0_n52(7)] ==> [reshare0_m[6](7), reshare0_m[3](7), reshare0_m[1](7), en_in(7), rst(7)] -log10(p) = 0.211369 --> OKAY
+@[RegIn_inst0_n53(5)] ==> [reshare0_m[7](5), reshare0_m[5](5), reshare0_m[4](5), reshare0_m[0](5), en_in(5), rst(5)] -log10(p) = 0.206606 --> OKAY
+@[RegIn_instX_n41(4)] ==> [x[6](4), x0[6](4), en_in(4), rst(4)] -log10(p) = 0.201857 --> OKAY
+@[RegIn_instX_n41(5)] ==> [x[6](5), x0[6](5), en_in(5), rst(5)] -log10(p) = 0.201857 --> OKAY
+@[RegIn_instX_n41(6)] ==> [x[6](6), x0[6](6), en_in(6), rst(6)] -log10(p) = 0.201857 --> OKAY
+@[RegIn_instX_n41(7)] ==> [x[6](7), x0[6](7), en_in(7), rst(7)] -log10(p) = 0.201857 --> OKAY
+@[RegIn_inst6_n51(7)] ==> [reshare6[15](7), reshare6_m[7](7), reshare6_m[4](7), reshare6_m[2](7), en_in(7), rst(7)] -log10(p) = 0.198384 --> OKAY
+@[RegIn_inst0_n64(4)] ==> [reshare0[2](4), reshare0_m[2](4), en_in(4), rst(4)] -log10(p) = 0.19594 --> OKAY
+@[RegIn_inst6_n56(7)] ==> [reshare6[10](7), reshare6_m[7](7), reshare6_m[5](7), reshare6_m[2](7), reshare6_m[1](7), reshare6_m[0](7), en_in(7), rst(7)] -log10(p) = 0.185828 --> OKAY
+@[z1[5](7)] ==> [z_out[8](7), z_out[13](7), z_out[11](7), z_out[14](7), z_out[15](7)] -log10(p) = 0.185253 --> OKAY
+@[RegIn_inst0_n62(7)] ==> [reshare0[4](7), reshare0_m[4](7), en_in(7), rst(7)] -log10(p) = 0.177804 --> OKAY
+@[RegIn_inst6_n56(5)] ==> [reshare6[10](5), reshare6_m[7](5), reshare6_m[5](5), reshare6_m[2](5), reshare6_m[1](5), reshare6_m[0](5), en_in(5), rst(5)] -log10(p) = 0.175886 --> OKAY
+@[RegIn_inst6_n61(5)] ==> [reshare6[5](5), reshare6_m[5](5), en_in(5), rst(5)] -log10(p) = 0.166388 --> OKAY
+@[RegIn_inst6_n61(6)] ==> [reshare6[5](6), reshare6_m[5](6), en_in(6), rst(6)] -log10(p) = 0.162474 --> OKAY
+@[RegIn_inst0_n55(6)] ==> [reshare0_m[6](6), reshare0_m[5](6), reshare0_m[2](6), reshare0_m[1](6), en_in(6), rst(6)] -log10(p) = 0.161654 --> OKAY
+@[RegIn_inst0_n51(7)] ==> [reshare0_m[7](7), reshare0_m[4](7), reshare0_m[2](7), en_in(7), rst(7)] -log10(p) = 0.160793 --> OKAY
+@[RegIn_inst6_n57(7)] ==> [reshare6[9](7), reshare6_m[6](7), reshare6_m[4](7), reshare6_m[1](7), reshare6_m[0](7), en_in(7), rst(7)] -log10(p) = 0.159962 --> OKAY
+@[RegIn_inst6_n65(7)] ==> [reshare6[1](7), reshare6_m[1](7), en_in(7), rst(7)] -log10(p) = 0.158171 --> OKAY
+@[RegIn_inst6_n55(5)] ==> [reshare6[11](5), reshare6_m[6](5), reshare6_m[5](5), reshare6_m[2](5), reshare6_m[1](5), en_in(5), rst(5)] -log10(p) = 0.152401 --> OKAY
+@[RegIn_inst0_n58(7)] ==> [reshare0_m[5](7), reshare0_m[3](7), reshare0_m[0](7), en_in(7), rst(7)] -log10(p) = 0.141058 --> OKAY
+@[RegIn_inst0_n54(7)] ==> [reshare0_m[7](7), reshare0_m[6](7), reshare0_m[3](7), reshare0_m[2](7), en_in(7), rst(7)] -log10(p) = 0.136512 --> OKAY
+@[RegIn_inst6_n51(6)] ==> [reshare6[15](6), reshare6_m[7](6), reshare6_m[4](6), reshare6_m[2](6), en_in(6), rst(6)] -log10(p) = 0.129325 --> OKAY
+@[RegIn_inst0_n52(6)] ==> [reshare0_m[6](6), reshare0_m[3](6), reshare0_m[1](6), en_in(6), rst(6)] -log10(p) = 0.128477 --> OKAY
+@[RegIn_inst0_n56(5)] ==> [reshare0_m[7](5), reshare0_m[5](5), reshare0_m[2](5), reshare0_m[1](5), reshare0_m[0](5), en_in(5), rst(5)] -log10(p) = 0.123324 --> OKAY
+@[RegIn_inst6_n58(4)] ==> [reshare6[8](4), reshare6_m[5](4), reshare6_m[3](4), reshare6_m[0](4), en_in(4), rst(4)] -log10(p) = 0.121033 --> OKAY
+@[RegIn_inst0_n57(6)] ==> [reshare0_m[6](6), reshare0_m[4](6), reshare0_m[1](6), reshare0_m[0](6), en_in(6), rst(6)] -log10(p) = 0.11773 --> OKAY
+@[RegIn_instX_n48(5)] ==> [x[13](5), x1[0](5), x1[5](5), en_in(5), rst(5), x1[4](5), x1[7](5)] -log10(p) = 0.116499 --> OKAY
+@[RegIn_instX_n48(6)] ==> [x[13](6), x1[0](6), x1[5](6), en_in(6), rst(6), x1[4](6), x1[7](6)] -log10(p) = 0.116499 --> OKAY
+@[RegIn_instX_n48(7)] ==> [x[13](7), x1[0](7), x1[5](7), en_in(7), rst(7), x1[4](7), x1[7](7)] -log10(p) = 0.116499 --> OKAY
+@[RegIn_inst6_n65(5)] ==> [reshare6[1](5), reshare6_m[1](5), en_in(5), rst(5)] -log10(p) = 0.110407 --> OKAY
+@[RegIn_inst6_n56(6)] ==> [reshare6[10](6), reshare6_m[7](6), reshare6_m[5](6), reshare6_m[2](6), reshare6_m[1](6), reshare6_m[0](6), en_in(6), rst(6)] -log10(p) = 0.109568 --> OKAY
+@[z1[0](7)] ==> [z_out[8](7), z_out[13](7), z_out[10](7), z_out[11](7), z_out[12](7), z_out[15](7)] -log10(p) = 0.108222 --> OKAY
+@[RegIn_inst0_n64(7)] ==> [reshare0[2](7), reshare0_m[2](7), en_in(7), rst(7)] -log10(p) = 0.107356 --> OKAY
+@[RegIn_inst6_n54(6)] ==> [reshare6[12](6), reshare6_m[7](6), reshare6_m[6](6), reshare6_m[3](6), reshare6_m[2](6), en_in(6), rst(6)] -log10(p) = 0.104451 --> OKAY
+@[RegIn_inst6_n55(7)] ==> [reshare6[11](7), reshare6_m[6](7), reshare6_m[5](7), reshare6_m[2](7), reshare6_m[1](7), en_in(7), rst(7)] -log10(p) = 0.103812 --> OKAY
+@[RegIn_inst6_n52(7)] ==> [reshare6[14](7), reshare6_m[6](7), reshare6_m[3](7), reshare6_m[1](7), en_in(7), rst(7)] -log10(p) = 0.0995113 --> OKAY
+@[RegIn_instX_n47(5)] ==> [x[12](5), x1[3](5), x1[6](5), en_in(5), rst(5), x1[2](5), x1[7](5)] -log10(p) = 0.0979463 --> OKAY
+@[RegIn_instX_n47(6)] ==> [x[12](6), x1[3](6), x1[6](6), en_in(6), rst(6), x1[2](6), x1[7](6)] -log10(p) = 0.0979463 --> OKAY
+@[RegIn_instX_n47(7)] ==> [x[12](7), x1[3](7), x1[6](7), en_in(7), rst(7), x1[2](7), x1[7](7)] -log10(p) = 0.0979463 --> OKAY
+@[RegIn_inst6_n62(6)] ==> [reshare6[4](6), reshare6_m[4](6), en_in(6), rst(6)] -log10(p) = 0.0873728 --> OKAY
+@[RegIn_inst6_n52(4)] ==> [reshare6[14](4), reshare6_m[6](4), reshare6_m[3](4), reshare6_m[1](4), en_in(4), rst(4)] -log10(p) = 0.0603858 --> OKAY
+@[RegIn_inst6_n62(7)] ==> [reshare6[4](7), reshare6_m[4](7), en_in(7), rst(7)] -log10(p) = 0.0582516 --> OKAY
+@[RegIn_inst6_n55(6)] ==> [reshare6[11](6), reshare6_m[6](6), reshare6_m[5](6), reshare6_m[2](6), reshare6_m[1](6), en_in(6), rst(6)] -log10(p) = 0.0567333 --> OKAY
+@[RegIn_inst0_n58(5)] ==> [reshare0_m[5](5), reshare0_m[3](5), reshare0_m[0](5), en_in(5), rst(5)] -log10(p) = 0.0539562 --> OKAY
+@[RegIn_inst6_n66(6)] ==> [reshare6[0](6), reshare6_m[0](6), en_in(6), rst(6)] -log10(p) = 0.0494121 --> OKAY
+@[RegIn_inst0_n64(5)] ==> [reshare0[2](5), reshare0_m[2](5), en_in(5), rst(5)] -log10(p) = 0.0469836 --> OKAY
+@[RegIn_inst6_n53(6)] ==> [reshare6[13](6), reshare6_m[7](6), reshare6_m[5](6), reshare6_m[4](6), reshare6_m[0](6), en_in(6), rst(6)] -log10(p) = 0.0467318 --> OKAY
+@[RegIn_inst6_n60(4)] ==> [reshare6[6](4), reshare6_m[6](4), en_in(4), rst(4)] -log10(p) = 0.0449934 --> OKAY
+@[RegIn_instX_n47(4)] ==> [x[12](4), x1[3](4), x1[6](4), en_in(4), rst(4), x1[2](4), x1[7](4)] -log10(p) = 0.0392735 --> OKAY
+@[RegIn_inst0_n66(6)] ==> [reshare0[0](6), reshare0_m[0](6), en_in(6), rst(6)] -log10(p) = 0.038199 --> OKAY
+@[RegIn_inst6_n66(7)] ==> [reshare6[0](7), reshare6_m[0](7), en_in(7), rst(7)] -log10(p) = 0.0328509 --> OKAY
+@[RegIn_inst6_n58(7)] ==> [reshare6[8](7), reshare6_m[5](7), reshare6_m[3](7), reshare6_m[0](7), en_in(7), rst(7)] -log10(p) = 0.0294255 --> OKAY
+@[RegIn_inst0_n57(5)] ==> [reshare0_m[6](5), reshare0_m[4](5), reshare0_m[1](5), reshare0_m[0](5), en_in(5), rst(5)] -log10(p) = 0.0291597 --> OKAY
+@[RegIn_inst6_n53(7)] ==> [reshare6[13](7), reshare6_m[7](7), reshare6_m[5](7), reshare6_m[4](7), reshare6_m[0](7), en_in(7), rst(7)] -log10(p) = 0.0259395 --> OKAY
+@[RegIn_instX_n35(4)] ==> [x[0](4), x0[0](4), en_in(4), rst(4)] -log10(p) = 0.025545 --> OKAY
+@[RegIn_instX_n35(5)] ==> [x[0](5), x0[0](5), en_in(5), rst(5)] -log10(p) = 0.025545 --> OKAY
+@[RegIn_instX_n35(6)] ==> [x[0](6), x0[0](6), en_in(6), rst(6)] -log10(p) = 0.025545 --> OKAY
+@[RegIn_instX_n35(7)] ==> [x[0](7), x0[0](7), en_in(7), rst(7)] -log10(p) = 0.025545 --> OKAY
+@[RegIn_instX_n50(5)] ==> [x[15](5), en_in(5), rst(5), x1[2](5), x1[4](5), x1[7](5)] -log10(p) = 0.0241076 --> OKAY
+@[RegIn_instX_n50(6)] ==> [x[15](6), en_in(6), rst(6), x1[2](6), x1[4](6), x1[7](6)] -log10(p) = 0.0241076 --> OKAY
+@[RegIn_instX_n50(7)] ==> [x[15](7), en_in(7), rst(7), x1[2](7), x1[4](7), x1[7](7)] -log10(p) = 0.0241076 --> OKAY
+@[RegIn_inst6_n66(4)] ==> [reshare6[0](4), reshare6_m[0](4), en_in(4), rst(4)] -log10(p) = 0.0154345 --> OKAY
+@[RegIn_inst6_n60(6)] ==> [reshare6[6](6), reshare6_m[6](6), en_in(6), rst(6)] -log10(p) = 0.0128003 --> OKAY
+@[RegIn_instX_n50(4)] ==> [x[15](4), en_in(4), rst(4), x1[2](4), x1[4](4), x1[7](4)] -log10(p) = 0.0123813 --> OKAY
+@[RegIn_inst6_n62(4)] ==> [reshare6[4](4), reshare6_m[4](4), en_in(4), rst(4)] -log10(p) = 0.0107911 --> OKAY
+@[RegIn_inst6_n60(7)] ==> [reshare6[6](7), reshare6_m[6](7), en_in(7), rst(7)] -log10(p) = 0.00908455 --> OKAY
+@[z1[4](7)] ==> [z_out[13](7), z_out[9](7), z_out[11](7), z_out[15](7)] -log10(p) = 0.00406998 --> OKAY
+@[RegIn_instX_n39(4)] ==> [x[4](4), x0[4](4), en_in(4), rst(4)] -log10(p) = 0.00286396 --> OKAY
+@[RegIn_instX_n39(5)] ==> [x[4](5), x0[4](5), en_in(5), rst(5)] -log10(p) = 0.00286396 --> OKAY
+@[RegIn_instX_n39(6)] ==> [x[4](6), x0[4](6), en_in(6), rst(6)] -log10(p) = 0.00286396 --> OKAY
+@[RegIn_instX_n39(7)] ==> [x[4](7), x0[4](7), en_in(7), rst(7)] -log10(p) = 0.00286396 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
+@[z1[7](4)] ==> [z_out[9](4), z_out[10](4), z_out[11](4), z_out[12](4), z_out[14](4), z_out[15](4)] -log10(p) = 0 --> OKAY
